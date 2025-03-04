@@ -1,0 +1,12 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App component > renders magnificent monkeys 1`] = `
+<div>
+  <h1>
+    Magnificent Monkeys
+  </h1>
+  <button>
+    Click Me
+  </button>
+</div>
+`;
