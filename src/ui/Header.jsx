@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-export default function Header() {
+export default function Header({ totalItems }) {
   return (
     <header className="text-base sm:text-1xl md:text-2xl text-stone-900 bg-fuchsia-300 p-2 sm:p-4 md:pd-6 rounded-md font-semibold flex justify-between">
       <span>XCX Shop</span>
@@ -16,7 +16,7 @@ export default function Header() {
         >
           Shop
         </Link>
-        <Link>🛒</Link>
+        <Link>🛒- {totalItems}</Link>
       </div>
     </header>
   );
